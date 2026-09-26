@@ -1,0 +1,15 @@
+# Next.js 빌드 및 캐시 폴더 제외
+.next/
+frontend/.next/
+
+# 의존성 모듈 제외
+node_modules/
+frontend/node_modules/
+
+# 환경 변수 파일 제외
+.env*.local
+
+# IDE 설정 파일 제외
+.idea/
+.vscode/
+.DS_Store
