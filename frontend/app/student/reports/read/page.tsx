@@ -1,4 +1,3 @@
-// src/app/student/reports/read/page.tsx
 import StudentSummary from "./_components/StudentSummary";
 import ReportList from "./_components/ReportList";
 import { getStudentReportViewData } from "@/services/studentReports";

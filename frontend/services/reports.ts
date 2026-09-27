@@ -1,4 +1,3 @@
-// src/services/reports.ts
 import { LessonWithDetails, Teacher } from "@/types/db";
 import { createAdminClient } from "@/utils/supabase/server";
 

@@ -1,4 +1,3 @@
-// src/services/studentReports.ts
 import { Student, Teacher, Lesson, ReportWithDetails } from "@/types/db";
 import { createAdminClient } from "@/utils/supabase/server";
 
