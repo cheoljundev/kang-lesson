@@ -83,12 +83,3 @@ export interface ReportWithDetails extends Report {
 export interface ReportWithTeacher extends Report {
     teacher: Teacher;
 }
-
-/**
- * 4. 학생 기준 누적 집계 요약 타입
- */
-export interface StudentLessonSummary {
-    student: Student;
-    total_completed_count: number; // 주선생님 + regular 기준 카운트
-    reports: ReportWithTeacher[];
-}
