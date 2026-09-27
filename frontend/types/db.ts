@@ -28,14 +28,6 @@ export interface Lesson {
     updated_at?: string;
 }
 
-// [신규] 수업 - 보충 선생님 N:M 매핑 테이블 엔티티
-export interface LessonSupplementaryTeacher {
-    id: string;
-    lesson_id: string;
-    teacher_id: string;
-    created_at?: string;
-}
-
 // 수업 보고서 기본 정보
 export interface Report {
     id: string;
