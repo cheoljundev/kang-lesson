@@ -76,10 +76,3 @@ export interface ReportWithDetails extends Report {
         supplementary_teachers?: Teacher[];
     };
 }
-
-/**
- * 3. 학생 보고서 목록 조회 페이지용 (보고서 + 작성 교사 정보)
- */
-export interface ReportWithTeacher extends Report {
-    teacher: Teacher;
-}
