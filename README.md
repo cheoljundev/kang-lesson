@@ -3,6 +3,8 @@
 Next.js App Router와 Supabase를 기반으로 구축된 과외 수업 일지 작성 및 학생별 보고서 조회 플랫폼입니다.  
 별도의 복잡한 로그인 절차 없이, 표준적인 Next.js 서버 백엔드 통제(Service Role Key 기반 RLS 우회) 방식으로 안전하게 데이터를 처리합니다.
 
+🔗 **배포 데모 사이트**: [https://kang-lesson.vercel.app/](https://kang-lesson.vercel.app/)
+
 ---
 
 ## 🚀 1. 프로젝트 실행 방법
@@ -30,9 +32,10 @@ npm install
 npm run dev
 ```
 
-브라우저에서 접속:
-* **선생님 보고서 작성**: [http://localhost:3000/teacher/reports/new](http://localhost:3000/teacher/reports/new)
-* **학생 보고서 조회**: [http://localhost:3000/student/reports/read](http://localhost:3000/student/reports/read)
+### 1-3. 접속 경로
+* **서비스 데모**: [https://kang-lesson.vercel.app/](https://kang-lesson.vercel.app/)
+* **선생님 보고서 작성**: [https://kang-lesson.vercel.app/teacher/reports/new](https://kang-lesson.vercel.app/teacher/reports/new) (로컬: `http://localhost:3000/teacher/reports/new`)
+* **학생 보고서 조회**: [https://kang-lesson.vercel.app/student/reports/read](https://kang-lesson.vercel.app/student/reports/read) (로컬: `http://localhost:3000/student/reports/read`)
 
 ---
 
